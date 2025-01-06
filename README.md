@@ -130,3 +130,26 @@ Once you have the API keys, make sure to update your .env file with the correct 
 2. **Customizable charts and graphs can be added for more data visualization.**
 3. **The application is fully responsive and supports various devices.**
 4. **The project is optimized for performance with server-side rendering via Next.js.**
+
+##ScreenShots of Pages:
+
+Main Page
+
+<img width="1680" alt="Screenshot 2025-01-07 at 00 42 40" src="https://github.com/user-attachments/assets/7240e2fe-56b4-421a-8f38-23980db4a929" />
+
+Finance Page
+<img width="1679" alt="Screenshot 2025-01-07 at 00 43 20" src="https://github.com/user-attachments/assets/2790e22f-f53f-4410-8247-ec99fbae496a" />
+
+<img width="1673" alt="Screenshot 2025-01-07 at 00 43 38" src="https://github.com/user-attachments/assets/d2de03c3-eeec-46d9-9832-af179a74e32b" />
+
+News Page
+
+<img width="1680" alt="Screenshot 2025-01-07 at 00 44 04" src="https://github.com/user-attachments/assets/e2ad570e-d6dd-4cbf-b0b3-6e200c214d00" />
+<img width="1672" alt="Screenshot 2025-01-07 at 00 44 29" src="https://github.com/user-attachments/assets/b26c63b2-9e22-475c-be27-3dfb6c1c3048" />
+<img width="1673" alt="Screenshot 2025-01-07 at 00 44 55" src="https://github.com/user-attachments/assets/19316667-5b8d-45f6-ac62-ecd9ca04f3b7" />
+
+Weather Page
+<img width="1680" alt="Screenshot 2025-01-07 at 00 45 27" src="https://github.com/user-attachments/assets/772c4140-3484-44cc-9344-5527e47cc7e0" />
+
+Movies Page
+<img width="1680" alt="Screenshot 2025-01-07 at 00 45 52" src="https://github.com/user-attachments/assets/313990b9-68f1-41f5-9f92-1103dc6c638c" />
