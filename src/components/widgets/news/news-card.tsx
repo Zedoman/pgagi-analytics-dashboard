@@ -26,7 +26,7 @@ export function NewsCard({ article }: NewsCardProps) {
         </div>
 
         <Link href={article.url}>
-            <button className="mt-2 px-4 py-1 text-sm font-semibold text-white dark:text-black bg-primary rounded hover:bg-primary-dark transition-colors duration-300 dark:bg-primary-light dark:hover:bg-primary">
+            <button className="mt-2 px-4 py-1 text-sm font-semibold text-white dark:text-grey-300 bg-primary rounded hover:bg-primary-dark transition-colors duration-300 dark:bg-primary-light dark:hover:bg-primary">
             Read more
             </button>
         </Link>

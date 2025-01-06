@@ -50,7 +50,7 @@ export function WeatherWidget() {
 
   return (
     <div className="space-y-4">
-      <h2 className="text-xl font-semibold">Latest Weather</h2>
+      <h2 className="text-xl font-semibold">WeatherSphere</h2>
       {error && <p className="text-red-500">{error}</p>}
       <WeatherCard data={weatherData} isLoading={isLoading} />
     </div>

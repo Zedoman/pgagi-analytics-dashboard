@@ -49,9 +49,10 @@ export function NewsSection() {
               rel="noopener noreferrer"
               className="space-y-3"
             >
-              <h3 className="font-medium line-clamp-2 hover:text-primary">
-                {article.title}
-              </h3>
+             <h3 className="font-medium line-clamp-2 hover:text-gray-300">
+  {article.title}
+</h3>
+
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <span>
                   {new Date(article.publishedAt).toLocaleString()}
