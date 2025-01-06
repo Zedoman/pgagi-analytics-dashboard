@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family:  Helvetica, sans-serif;
+}
+@layer base {
+  :root {
+    --background: 210 10% 85%; /* Light blue */
+    --foreground: 210 20% 15%; /* Dark blue */
+    --card: 210 10% 95%; /* Light blue */
+    --card-foreground: 210 20% 15%; /* Dark blue */
+    --popover: 210 10% 95%; /* Light blue */
+    --popover-foreground: 210 20% 15%; /* Dark blue */
+    --primary: 210 20% 35%; /* Medium blue */
+    --primary-foreground: 0 0% 98%; /* White */
+    --secondary: 210 5% 70%; /* Ash gray */
+    --secondary-foreground: 210 15% 10%; /* Dark blue */
+    --muted: 210 5% 80%; /* Ash gray */
+    --muted-foreground: 210 20% 25%; /* Dark blue */
+    --accent: 210 5% 85%; /* Light ash */
+    --accent-foreground: 210 20% 15%; /* Dark blue */
+    --destructive: 0 84.2% 60.2%; /* Red (unchanged) */
+    --destructive-foreground: 0 0% 98%; /* White */
+    --border: 210 20% 85%; /* Ash gray */
+    --input: 210 10% 90%; /* Ash gray */
+    --ring: 210 20% 35%; /* Dark blue */
+    --chart-1: 200 50% 60%; /* Blue */
+    --chart-2: 210 50% 45%; /* Lighter blue */
+    --chart-3: 240 20% 35%; /* Darker blue */
+    --chart-4: 230 50% 60%; /* Soft blue */
+    --chart-5: 220 40% 50%; /* Slightly muted blue */
+    --radius: 0.5rem;
+    --sidebar-background: 210 10% 90%; /* Light ash */
+    --sidebar-foreground: 210 20% 15%; /* Dark blue */
+    --sidebar-primary: 210 20% 35%; /* Medium blue */
+    --sidebar-primary-foreground: 0 0% 98%; /* White */
+    --sidebar-accent: 210 5% 85%; /* Light ash */
+    --sidebar-accent-foreground: 210 20% 15%; /* Dark blue */
+    --sidebar-border: 210 5% 75%; /* Ash gray */
+    --sidebar-ring: 210 20% 35%; /* Dark blue */
+  }
+
+  .dark {
+    --background: 210 20% 10%; /* Very dark blue */
+    --foreground: 210 10% 90%; /* Light blue */
+    --card: 210 20% 10%; /* Dark blue */
+    --card-foreground: 210 10% 95%; /* Light blue */
+    --popover: 210 20% 10%; /* Dark blue */
+    --popover-foreground: 210 10% 95%; /* Light blue */
+    --primary: 210 25% 20%; /* Darker blue */
+    --primary-foreground: 210 10% 95%; /* Light blue */
+    --secondary: 210 10% 15%; /* Very dark blue */
+    --secondary-foreground: 210 10% 90%; /* Light blue */
+    --muted: 210 15% 20%; /* Dark blue */
+    --muted-foreground: 210 10% 85%; /* Light blue */
+    --accent: 210 20% 15%; /* Dark blue */
+    --accent-foreground: 210 10% 95%; /* Light blue */
+    --destructive: 0 62.8% 30.6%; /* Red (unchanged) */
+    --destructive-foreground: 0 0% 98%; /* White */
+    --border: 210 20% 20%; /* Very dark blue */
+    --input: 210 20% 20%; /* Very dark blue */
+    --ring: 210 25% 20%; /* Dark blue */
+    --chart-1: 210 50% 30%; /* Dark blue */
+    --chart-2: 210 50% 25%; /* Dark blue */
+    --chart-3: 210 50% 20%; /* Dark blue */
+    --chart-4: 210 50% 35%; /* Dark blue */
+    --chart-5: 210 50% 30%; /* Dark blue */
+    --sidebar-background: 210 25% 10%; /* Very dark blue */
+    --sidebar-foreground: 210 10% 90%; /* Light blue */
+    --sidebar-primary: 210 25% 20%; /* Darker blue */
+    --sidebar-primary-foreground: 210 10% 95%; /* Light blue */
+    --sidebar-accent: 210 20% 15%; /* Dark blue */
+    --sidebar-accent-foreground: 210 10% 90%; /* Light blue */
+    --sidebar-border: 210 20% 25%; /* Dark blue */
+    --sidebar-ring: 210 25% 20%; /* Dark blue */
+  }
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
