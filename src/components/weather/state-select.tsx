@@ -86,7 +86,6 @@ export function StateSelect({ onWeatherData, onLoadingChange }: StateSelectProps
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-full p-0 max-h-60 overflow-y-auto">
-        <DropdownMenuLabel>Indian States with Capitals</DropdownMenuLabel>
         <DropdownMenuSeparator />
         {INDIAN_STATES_WITH_CAPITALS.map((state) => (
           <DropdownMenuItem
