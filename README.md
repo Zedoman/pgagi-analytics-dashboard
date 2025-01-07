@@ -96,7 +96,7 @@ NEXT_PUBLIC_ALPHA_VANTAGE_API_KEY: API key for Alpha Vantage to fetch stock mark
 NEXT_PUBLIC_TMDB_API_KEY: API key for The Movie Database (TMDB) to fetch movie data.
 ```
 Ensure you replace the placeholders in the .env file with your actual API keys.
-#### Note: If accessing TMDB in India use VPN.
+#### Note: If accessing TMDB in India use VPN. On the hosted site, the News API functionality is restricted due to the NewsAPI policy. It will only work during development..
 ## API Setup
 ### API Keys:
 To use the external APIs in the project, you need to obtain API keys from the following services:
