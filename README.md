@@ -84,7 +84,7 @@ npm run test:coverage
 
 ## Deployment Details
 
-[Vercel Deployment]()
+[Netlify Deployment](https://pgagidashboard.netlify.app/)
 
 ## Environment Variables
 The following environment variables are required for the application to work correctly:
