@@ -90,7 +90,6 @@ npm run test:coverage
 The following environment variables are required for the application to work correctly:
 
 ```bash
-PORT: The port the app will run on (default is 5000).
 NEXT_PUBLIC_OPENWEATHER_API_KEY: API key for OpenWeather to fetch weather data.
 NEXT_PUBLIC_NEWS_API_KEY: API key for fetching news articles.
 NEXT_PUBLIC_ALPHA_VANTAGE_API_KEY: API key for Alpha Vantage to fetch stock market data.
