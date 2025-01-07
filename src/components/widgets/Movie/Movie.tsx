@@ -35,11 +35,15 @@ export function MovieCard() {
           }
         } else {
           console.error("Error fetching movie:", response.statusText);
-          setError("Failed to fetch the trending movie.");
+          setError(
+            "Failed to fetch the trending movie. If you are in India, consider using a VPN to access the movies."
+          );
         }
       } catch (error) {
         console.error("Error fetching movie:", error);
-        setError("An error occurred while fetching the trending movie.");
+        setError(
+          "An error occurred while fetching the trending movie. If you are in India, consider using a VPN to access the movies."
+        );
       } finally {
         setIsLoading(false);
       }
